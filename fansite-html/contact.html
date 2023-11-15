@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../fansite-css/contact.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Formulaire de Contact</h1>
+                <h2>Contactez-nous:</h2>
+            </header>
+            <form action="traitement.html" method="contact" class="contact-form">
+                <div class="form-group">
+                    <label for="genre">Genre :</label>
+                    <input type="radio" id="genre-masculin" name="genre" value="masculin">
+                    <label for="genre-masculin">Masculin</label>
+                
+                    <input type="radio" id="genre-feminin" name="genre" value="feminin">
+                    <label for="genre-feminin">Féminin</label>
+                </div>
+            
+                <div class="form-group">
+                    <label for="Situation Familiale">Situation Familiale :</label>
+                    <input type="radio" value="Celibataire">
+                    <label for="Singular">Célibataire</label>
+            
+                    <input type="radio" value="Maried">
+                    <label for="Maried">Marié</label>
+            
+                    <input type=radio value="divorce">
+                    <label for="divorce">Divorcé</label>
+            
+                    <input type=radio value="widower">
+                    <label for="widower">Veuf ou veuve</label>
+                </div>
+            
+                <div class="form-group">
+                    <label for="first-name">Nom :</label>
+                    <input type="text">
+                </div>
+                
+                <div class="form-group">
+                    <label for="last-name">Prénom :</label>
+                    <input type="text">
+                </div>
+            
+                <div class="form-group">
+                    <label for="profession">Profession :</label>
+                    <input type="text">
+                </div>
+            
+                <div class="form-group">
+                    <label for="tel">Téléphone :</label>
+                    <input type="text">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                
+                <button>Envoyer</button>
+            </form>
+            </main>
+            
+    
+    
+</body>
+</html>
