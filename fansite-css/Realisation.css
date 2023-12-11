@@ -1,21 +1,17 @@
-@media (max-height: 1500px) {
-    #head{
-        height:500px;
-    }
-}
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-header{
+
+header {
     background-image: url(../image-messi/image-de-terrain-de-foot.jpg);
-    /* width: 100vh; */
-    height: 100vh;
+    height: 110vh;
     background-size: cover;
     background-position: center;
 }
-.logo{
+
+.logo {
     color: brown;
     font-weight: bold;
     padding: 5px 20px;
@@ -27,26 +23,29 @@ header{
     text-transform: uppercase;
     text-decoration: none;
 }
-.logo span{
+
+.logo span {
     color: blue;
     font-weight: bold;
     font-size: 1rem;
-
 }
+
 .menu-nav a {
     text-decoration: none;
     display: inline-block;
     margin-top: 67px;
     color: #0c0909;
     padding: 4px 6px;
-    margin-left: 70PX;
+    margin-left: 70px;
     border: 2px solid #fff;
     border-radius: 10px;
     font-weight: bold;
 }
-.menu-nav a:hover{
+
+.menu-nav a:hover {
     background-color: #fff;
 }
+
 section h1 {
     text-decoration: none;
     display: inline-block;
@@ -54,79 +53,37 @@ section h1 {
     position: absolute;
     top: 125px;
     left: 259px;
-    padding:5px;
+    padding: 5px;
     border: 2px solid #0b0a0a;
     border-radius: 10px;
     color: #fff;
 }
-section img{
-    display: grid; 
-  grid-template-columns: 1fr 1fr 2fr; 
-    grid-template-rows: 1fr 1fr ; 
-    gap: 20px 20px; 
-    /* height: 126px;
-    width: 136px; */
-    /* position: absolute; */
-    /* top: 200px;
-    left: 97px;
-    border-radius: 50%; */
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Une colonne */
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+
+    position: relative;
+    top: -410px;
+    left: 100px;
 }
-.skils0{
-    position: absolute;
-    top: 200px;
-    left: 97px;
-    border-radius: 50%;
-    border: 2px solid #0000da;
 
-} 
-.skils1{
-    position: absolute;
-    top: 381px;
-    left: 97px;
-    border-radius: 50%;
-    border: 2px solid #0000da;
-
-} .skils2{
-    position: absolute;
-    top: 200px;
-    left: 304px;
-    border-radius: 50%;
-    border: 2px solid #0000da;
-
-} .skils3{
-    position: absolute;
-    top: 381px;
-    left: 304px;
-    border-radius: 50%; 
-    border: 2px solid #0000da;
-
-} 
-.skils4{
-    height: 180px;
-    width: 196px;
-    position: absolute;
-    top: 372px;
-    left: 596px;
-    border-radius: 50%;
-     border: 2px solid #0000da;
+li {
+    display: flex;
+    flex-direction: column;
 }
-.skils5{
-    height: 180px;
-    width: 196px;
-    position: absolute;
-    top: 178px;
-    left: 596px;
-    border-radius: 50%; border: 2px solid #0000da;
-}  
-.skils6 {
-    height: 231px;
-    width: 267px;
-    position: absolute;
-    top: 10px;
-    left: 888px;
+
+li img {
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
     border-radius: 50%;
     border: 2px solid #0000da;
 }
+
 .videos {
     width: 395px;
     height: 254px;
@@ -135,7 +92,5 @@ section img{
     left: 845px;
     border: 2px solid #0000da;
     border-radius: 10px;
-
 }
-
 
